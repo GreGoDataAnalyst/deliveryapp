@@ -64,7 +64,7 @@ document.addEventListener("DOMContentLoaded", () => {
     }
 
     // WhatsApp notification
-    const phoneNumber = "393331234567"; // <-- change to your WhatsApp number
+    const phoneNumber = "393508912048"; // <-- change to your WhatsApp number
     const msg = encodeURIComponent(
       `New Order!\nName: ${order.customer_name}\nPhone: ${order.phone}\nAddress: ${order.address}\nItems: ${order.items.map(i => `${i.name} x ${i.quantity}`).join(", ")}\nPayment: ${order.payment_method}`
     );
@@ -76,3 +76,4 @@ document.addEventListener("DOMContentLoaded", () => {
     location.href = "index.html";
   });
 });
+
