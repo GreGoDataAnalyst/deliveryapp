@@ -1,0 +1,8 @@
+{
+  "name": "Food Delivery",
+  "short_name": "Delivery",
+  "start_url": "/index.html",
+  "display": "standalone",
+  "theme_color": "#111",
+  "background_color": "#fff"
+}
